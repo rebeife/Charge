@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+html,
+body {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background:url('../img/background\ 2.jpg')
+}
+nav.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-tab:hover {
+  background: rgba(165, 42, 42, 0.925);
+  text-shadow: 0px 0px 0 rgb(165, 42, 0.925), 1px 1px 0 rgb(165, 123, 26),
+    2px 2px 0 rgb(242, 185, 100);
+
+  cursor: pointer;
+}
+
+nav.nav-bar a {
+  text-decoration: none;
+  padding-right: 25px;
+  font-size: 20px;
+  color: #22283a;
+}
+
+nav.nav-bar a:hover {
+  text-shadow: 0px 0px 0 rgb(208, 138, 28), 1px 1px 0 rgb(165, 123, 26),
+    2px 2px 0 rgb(242, 185, 100), 3px 3px 0 rgb(227, 167, 187);
+}
+
+.home-tab {
+  background: brown;
+  margin-right: 10px;
+  color: white;
+  width: 70px;
+  height: 50px;
+  padding: 3px 5px 5px 12px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.podcasts-tab {
+  background: brown;
+  margin-right: 18px;
+  color: white;
+  width: 90px;
+  height: 50px;
+  padding: 3px 5px 5px 12px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.podcasts-tab:hover {
+  cursor: pointer;
+}
+
+nav.nav-bar p.home-tab a {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  font-size: larger;
+  background-color: white;
+  font-size: large;
+  font-style: italic;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    width: 0 auto;
+    height: 0 auto;
+    margin: 0 auto;
+    background: url(../img/Background\ \(1\).jpg);
+    text-align: center;
+  }
+  
+  .section-one {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  
+  #anx {
+    position: relative;
+    text-align: end;
+    color: blueviolet;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
+    background: url("../img/anxiety.jpg");
+    
+  }
+  
+  .anx-text{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  #fear {
+    position: relative;
+    text-align: end;
+    color: blueviolet;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
+  background: url("../img/fear.jpg");
+  
+    }
+  
+  .fear-text{
+      position: absolute;
+      top: 90%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+  }
+  .section-two {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  
+  #stress {
+    position: relative;
+    text-align: end;
+    color: blueviolet;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
+    background: url(../img/stress.jpg);
+  }
+  
+  .stress-text{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #low {
+    position: relative;
+    text-align: end;
+    color: blue;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 250px;
+    width: 250px;
+    background: url("../img/low\ self\ esteem.jpg");
+  }
+  
+  .low-text{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .menu-icon {
+    display: none;
+  }
+    .header {
+      min-width: 60%;
+      background: #f3f3f3;
+    }
+    nav.nav-bar {
+      width: 60%;
+      display: flex;
+    }
+    nav.nav-bar a {
+      font-size: 12px;
+      padding-right: 3px;
+      font-weight: bold;
+    }
+    .home-tab {
+      display: none;
+    }
+
+    footer {
+      padding-bottom: 1em;
+      font-size: 0.9375rem;
+      color: white;
+      margin-top: 20px;
+      background-color: #22283a;
+    }
+    
+    .footer {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding: 3em 1em;
+      font-size: 0.9375rem;
+      color: white;
+    }
+    
+    .footer-contents {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+    }
+    
+    .footer > div ul {
+      list-style-type: none;
+      margin-left: -40px;
+    }
+    
+    .footer > div ul li {
+      padding-top: 5px;
+      padding-bottom: 16px;
+    }
+    .footer .footer-contents p {
+      padding-bottom: -55px;
+      /* background: yellow; */
+    }
+    .copyright {
+      text-align: center;
+    }
+  
+
